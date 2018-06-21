@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Easy Findings</title>
+        <script src="easyscript.js"></script>
+        <link href="easystyle.css" rel="stylesheet" type="text/css">    
+    </head>
+
+    <body>
+        <div id="nav">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quote.html">Quote Box</a></li>
+                <li><a href="hero.html">Hero Converter</a></li>
+                <li><a href="easy.html">Easy Findings</a></li>
+                <li><a href="magic.html">Magic</a></li>
+            </ul>
+
+        </div>
+
+        <div id="mainBody">
+            <div id="mainTask">
+                <label>Input series of number : </label><input type="text" id="numbers" onkeyup="showChange()"  onkeypress="return isNumber(event)"><br><br>
+                <label>Max : </label><span id="max_num"></span><br><br>
+                <label>Min : </label><span id="min_num"></span><br><br>
+                <label>Sum : </label><span id="sum"></span><br><br>
+                <label>Average : </label><span id="average"></span><br><br>
+                <label>Reverse order : </label><span id="reverse"></span><br><br>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

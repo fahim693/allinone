@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}#nav{
+     width: 90%;
+    margin-left: 5%;
+    
+    height: 60px;
+    
+}
+ul{
+    background-color:  #3e2723;
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    padding: 17px 18px;
+    text-align: center;
+    color: burlywood;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+#mainBody{
+    width: 90%;
+    margin-left: 5%;
+    background-color: black;
+    height: 370px;
+    margin-top: -6px;
+}
+
+#quoteContents{
+    padding: 6%;
+    margin-left: 6%;
+   
+}
+#innerbox{
+    margin-left: 12%;
+    
+    height: 90px;
+    text-align: center;
+    border:10px solid;
+    width: 40%;
+    float: left;
+}
+
+#colorButtons{
+    height: 80px;
+    float: right;
+    width: 13%;
+    margin-right: 32%;
+
+}
+
+#color1{
+    width:19%;
+    margin-top: 7%;
+    margin-left: 8%;
+    height: 30px;
+    background-color: #4a148c;
+    float: left
+}
+
+#color2{
+    width:19%;
+    margin-top: 7%;
+    margin-left: 8%;
+    height: 30px;
+    float: left;
+    background-color: #4caf50;
+}
+#color3{
+    width:19%;
+    margin-top: 7%;
+    margin-left: 8%;
+    height: 30px;
+    float: left;
+    background-color: #795548;
+    
+}
+
+#color4{
+    width:19%;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 30px;
+    float: left;
+    background-color: #cddc39;
+}
+
+#color5{
+    width:19%;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 30px;
+    float: left;
+    background-color: #009688;
+}
+
+#color6{
+    width:19%;
+    margin-top: 5%;
+    margin-left: 8%;
+    height: 30px;
+    float: left;
+    background-color: #004d40;
+}
+
+
+
+
+

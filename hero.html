@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hero Converter</title>
+        <script src="heroscript.js"></script>
+        <link href="herostyle.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+        <div id="nav">
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="quote.html">Quote Box</a></li>
+                <li><a href="hero.html">Hero Converter</a></li>
+                <li><a href="easy.html">Easy Findings</a></li>
+                <li><a href="magic.html">Magic</a></li>
+            </ul>
+
+        </div>
+
+
+        <div id="mainBody">
+            <div id="convert">
+                <label>Convert : </label><input type="text" id="number" onkeypress="return isNumber(event)">
+                <select id="selection">
+                    <option>lb to kg</option>
+                    <option>kg to lb</option>
+                </select>
+
+                <button onclick="showResult()">GO</button>
+
+                <span id="result"></span>
+            </div>
+        </div>
+
+    </body>
+</html>

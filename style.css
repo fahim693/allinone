@@ -1,0 +1,125 @@
+body{
+    margin-top: -40px;
+   
+}
+#title{
+    width: 90%;
+    margin-left: 5%;
+    
+    height: 60px;
+    background-color:  #795548;
+}
+a{
+    text-decoration: none;
+}
+#title h2{
+    font-style: oblique;
+    padding: 8px;
+    text-align: center;
+    color: #bdbdbd;
+    font-size: 40px;
+}
+
+#menuContainer{
+    
+    width: 90%;
+    margin-left: 5%;
+    height: 670px;
+    background-color: black;
+}
+
+#quoteBox{
+    float: left;
+    position: absolute;
+    background-color: #880e4f;
+    font-style: oblique;
+    color: blueviolet;
+    width: 25%;
+    margin-left: 17%;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#quoteBox a:link{
+    color: blueviolet;
+}
+
+#heroConverter a:link{
+    color: darkcyan;
+}
+
+#easyFindings a:link{
+    color: darkgray;
+}
+
+#magic a:link{
+    color: coral;
+}
+
+#quoteBox a:visited{
+    color: blueviolet;
+}
+
+#heroConverter a:visited{
+    color: darkcyan;
+}
+
+#easyFindings a:visited{
+    color: darkgray;
+}
+
+#magic a:visited{
+    color: coral;
+}
+
+#easyFindings{
+    float: left;
+    position: absolute;
+    font-style: oblique;
+    color: darkgray;
+    background-color: #00695c;
+    width: 25%;
+    margin-left: 47%;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#heroConverter{
+    float: left;
+    position: absolute;
+    font-style: oblique;
+    color: darkcyan;
+    background-color: #424242;
+    width: 25%;
+    margin-left: 47%;
+    height: 200px;
+    margin-top: 350px;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+#magic{
+    float: left;
+    position: absolute;
+    font-style: oblique;
+    color: coral;
+    background-color:#5d4037;
+    width: 25%;
+    margin-left: 17%;
+    height: 200px;
+    margin-top: 350px;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 80px;
+}
+
